@@ -1,0 +1,2 @@
+C:\Users\alternat0r\AppData\Local\Temporary Projects\vircserver\bin\Debug\vircserver.exe.config
+C:\Users\alternat0r\Documents\Visual Studio 2012\Projects\vircserver\vircserver\bin\Debug\vircserver.exe.config
