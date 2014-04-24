@@ -1,2 +1,12 @@
 C:\Users\alternat0r\AppData\Local\Temporary Projects\vircserver\bin\Debug\vircserver.exe.config
 C:\Users\alternat0r\Documents\Visual Studio 2012\Projects\vircserver\vircserver\bin\Debug\vircserver.exe.config
+C:\Users\alternat0r\Documents\Visual Studio 2012\Projects\vircserver\vircserver\bin\Debug\vircserver.exe
+C:\Users\alternat0r\Documents\Visual Studio 2012\Projects\vircserver\vircserver\bin\Debug\vircserver.pdb
+C:\Users\alternat0r\Documents\Visual Studio 2012\Projects\vircserver\vircserver\bin\Debug\vircserver.xml
+C:\Users\alternat0r\Documents\Visual Studio 2012\Projects\vircserver\vircserver\obj\Debug\vircserver.frmMain.resources
+C:\Users\alternat0r\Documents\Visual Studio 2012\Projects\vircserver\vircserver\obj\Debug\vircserver.frmOptions.resources
+C:\Users\alternat0r\Documents\Visual Studio 2012\Projects\vircserver\vircserver\obj\Debug\vircserver.Resources.resources
+C:\Users\alternat0r\Documents\Visual Studio 2012\Projects\vircserver\vircserver\obj\Debug\vircserver.vbproj.GenerateResource.Cache
+C:\Users\alternat0r\Documents\Visual Studio 2012\Projects\vircserver\vircserver\obj\Debug\vircserver.exe
+C:\Users\alternat0r\Documents\Visual Studio 2012\Projects\vircserver\vircserver\obj\Debug\vircserver.xml
+C:\Users\alternat0r\Documents\Visual Studio 2012\Projects\vircserver\vircserver\obj\Debug\vircserver.pdb
