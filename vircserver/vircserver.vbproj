@@ -55,6 +55,9 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Winsock Orcas">
+      <HintPath>E:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\Winsock Orcas.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />

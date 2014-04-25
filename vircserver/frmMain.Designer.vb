@@ -30,6 +30,7 @@ Partial Class frmMain
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.lstData = New System.Windows.Forms.ListBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.tcpServer = New Winsock_Orcas.Winsock()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -52,18 +53,18 @@ Partial Class frmMain
         'OptionsToolStripMenuItem
         '
         Me.OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem"
-        Me.OptionsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.OptionsToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.OptionsToolStripMenuItem.Text = "&Options"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(149, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(113, 6)
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.ExitToolStripMenuItem.Text = "E&xit"
         '
         'lstData
@@ -73,6 +74,16 @@ Partial Class frmMain
         Me.lstData.Name = "lstData"
         Me.lstData.Size = New System.Drawing.Size(341, 134)
         Me.lstData.TabIndex = 1
+        '
+        'tcpServer
+        '
+        Me.tcpServer.BufferSize = 8192
+        Me.tcpServer.LegacySupport = False
+        Me.tcpServer.LocalPort = 8080
+        Me.tcpServer.MaxPendingConnections = 1
+        Me.tcpServer.Protocol = Winsock_Orcas.WinsockProtocol.Tcp
+        Me.tcpServer.RemoteHost = "localhost"
+        Me.tcpServer.RemotePort = 8080
         '
         'frmMain
         '
@@ -99,5 +110,6 @@ Partial Class frmMain
     Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents lstData As System.Windows.Forms.ListBox
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
+    Friend WithEvents tcpServer As Winsock_Orcas.Winsock
 
 End Class

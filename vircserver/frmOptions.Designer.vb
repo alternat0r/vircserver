@@ -24,22 +24,22 @@ Partial Class frmOptions
     Private Sub InitializeComponent()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.lstWho = New System.Windows.Forms.ListBox()
+        Me.TabPage5 = New System.Windows.Forms.TabPage()
         Me.btnCancel = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.TabPage4 = New System.Windows.Forms.TabPage()
-        Me.TabPage5 = New System.Windows.Forms.TabPage()
-        Me.lstWho = New System.Windows.Forms.ListBox()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage4.SuspendLayout()
@@ -75,6 +75,66 @@ Partial Class frmOptions
         Me.TabPage1.Text = "General"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(292, 173)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.TabIndex = 6
+        Me.Button4.Text = "Clear all"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(28, 80)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(63, 13)
+        Me.Label3.TabIndex = 5
+        Me.Label3.Text = "Server Port:"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(13, 54)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(78, 13)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "Server Banner:"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(94, 80)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox3.TabIndex = 3
+        Me.TextBox3.Text = "6667"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(94, 54)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(273, 20)
+        Me.TextBox2.TabIndex = 2
+        Me.TextBox2.Text = "Welcome to vircserver."
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(19, 28)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(72, 13)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Server Name:"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(94, 28)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(273, 20)
+        Me.TextBox1.TabIndex = 0
+        Me.TextBox1.Text = "irc.whatever.com"
+        '
         'TabPage2
         '
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
@@ -84,6 +144,52 @@ Partial Class frmOptions
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "K-Lines"
         Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'TabPage3
+        '
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Size = New System.Drawing.Size(384, 212)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "MOTD"
+        Me.TabPage3.UseVisualStyleBackColor = True
+        '
+        'TabPage4
+        '
+        Me.TabPage4.Controls.Add(Me.Label4)
+        Me.TabPage4.Controls.Add(Me.lstWho)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Size = New System.Drawing.Size(384, 212)
+        Me.TabPage4.TabIndex = 3
+        Me.TabPage4.Text = "Who's Online"
+        Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(90, 18)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(199, 13)
+        Me.Label4.TabIndex = 1
+        Me.Label4.Text = "List of user connected to this IRC server."
+        '
+        'lstWho
+        '
+        Me.lstWho.FormattingEnabled = True
+        Me.lstWho.Location = New System.Drawing.Point(3, 49)
+        Me.lstWho.Name = "lstWho"
+        Me.lstWho.Size = New System.Drawing.Size(378, 160)
+        Me.lstWho.TabIndex = 0
+        '
+        'TabPage5
+        '
+        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage5.Name = "TabPage5"
+        Me.TabPage5.Size = New System.Drawing.Size(384, 212)
+        Me.TabPage5.TabIndex = 4
+        Me.TabPage5.Text = "Other"
+        Me.TabPage5.UseVisualStyleBackColor = True
         '
         'btnCancel
         '
@@ -111,112 +217,6 @@ Partial Class frmOptions
         Me.Button3.TabIndex = 3
         Me.Button3.Text = "&Advanced"
         Me.Button3.UseVisualStyleBackColor = True
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(94, 28)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(273, 20)
-        Me.TextBox1.TabIndex = 0
-        Me.TextBox1.Text = "irc.whatever.com"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(19, 28)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(72, 13)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Server Name:"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(94, 54)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(273, 20)
-        Me.TextBox2.TabIndex = 2
-        Me.TextBox2.Text = "Welcome to vircserver."
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(94, 80)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 3
-        Me.TextBox3.Text = "6667"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(13, 54)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(78, 13)
-        Me.Label2.TabIndex = 4
-        Me.Label2.Text = "Server Banner:"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(28, 80)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(63, 13)
-        Me.Label3.TabIndex = 5
-        Me.Label3.Text = "Server Port:"
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(292, 173)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 6
-        Me.Button4.Text = "Clear all"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'TabPage3
-        '
-        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(384, 212)
-        Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "MOTD"
-        Me.TabPage3.UseVisualStyleBackColor = True
-        '
-        'TabPage4
-        '
-        Me.TabPage4.Controls.Add(Me.Label4)
-        Me.TabPage4.Controls.Add(Me.lstWho)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(384, 212)
-        Me.TabPage4.TabIndex = 3
-        Me.TabPage4.Text = "Who's Online"
-        Me.TabPage4.UseVisualStyleBackColor = True
-        '
-        'TabPage5
-        '
-        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Size = New System.Drawing.Size(384, 212)
-        Me.TabPage5.TabIndex = 4
-        Me.TabPage5.Text = "Other"
-        Me.TabPage5.UseVisualStyleBackColor = True
-        '
-        'lstWho
-        '
-        Me.lstWho.FormattingEnabled = True
-        Me.lstWho.Location = New System.Drawing.Point(3, 49)
-        Me.lstWho.Name = "lstWho"
-        Me.lstWho.Size = New System.Drawing.Size(378, 160)
-        Me.lstWho.TabIndex = 0
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(90, 18)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(199, 13)
-        Me.Label4.TabIndex = 1
-        Me.Label4.Text = "List of user connected to this IRC server."
         '
         'frmOptions
         '
