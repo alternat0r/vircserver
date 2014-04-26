@@ -60,6 +60,6 @@ Public Class frmMain
 
 
     Private Sub AboutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem.Click
-        MsgBox("vircserver is a simple program for IRC. Designed for Windows.")
+        MsgBox("vircserver is a simple program for IRC. Designed for Windows. Some of user may need this program for their usage.")
     End Sub
 End Class
