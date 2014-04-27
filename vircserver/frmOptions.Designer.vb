@@ -47,9 +47,11 @@ Partial Class frmOptions
         Me.lstKlines = New System.Windows.Forms.ListBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -162,6 +164,7 @@ Partial Class frmOptions
         '
         'TabPage3
         '
+        Me.TabPage3.Controls.Add(Me.TextBox6)
         Me.TabPage3.Location = New System.Drawing.Point(4, 22)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Size = New System.Drawing.Size(384, 212)
@@ -291,6 +294,14 @@ Partial Class frmOptions
         Me.Button5.Text = "-"
         Me.Button5.UseVisualStyleBackColor = True
         '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(11, 12)
+        Me.TextBox6.Multiline = True
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(359, 186)
+        Me.TextBox6.TabIndex = 0
+        '
         'frmOptions
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -309,6 +320,8 @@ Partial Class frmOptions
         Me.TabPage1.PerformLayout()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
+        Me.TabPage3.ResumeLayout(False)
+        Me.TabPage3.PerformLayout()
         Me.TabPage4.ResumeLayout(False)
         Me.TabPage4.PerformLayout()
         Me.ResumeLayout(False)
@@ -339,4 +352,5 @@ Partial Class frmOptions
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
 End Class
